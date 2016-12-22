@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script charset="UTF-8" src="../js/jquery-3.1.1.min.js"></script>
+        <title>Car insurance</title>
+        <link href="../css/bootstrap.css" rel="stylesheet">
+        <link href="../css/jquery-ui.css" rel="stylesheet">
+        <link href="../css/jquery-ui.structure.css" rel="stylesheet">
+        <link href="../css/jquery-ui.theme.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="../css/bootstrap.css" type="text/css">
+        <script src="../js/forge.bundle.js" ></script>
+
+    </head>
+    <body>        
+        <nav class="navbar navbar-default">
+            <div class = "container" >
+                <div class = "navbar-header" >
+                    <a class = "navbar-brand" href = "home?page=home" > Assurance voiture </a>
+                </div>
+                <div class = "collapse navbar-collapse" id = "bs-example-navbar-collapse-1" >
+                    <ul class = "nav navbar-nav" >
+                        <li class = "dropdown" >
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Connexion<span class="caret"></span></a>
+                            <ul class = "dropdown-menu" role = "menu" >
+                                <li> <a href = "https://bootswatch.com/darkly/" target = "_blank" > Bootswatch </a></li >
+                                <li> <a href = "https://jqueryui.com/" target = "_blank" > Jquery UI </a></li >
+                                <li> <a href = "http://www.w3schools.com/" target = "_blank" > W3Schools </a></li >
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class = "nav navbar-nav" >
+                        <li class = "dropdown" >
+                            <a class = "dropdown-toggle" data-toggle="dropdown" role = "button" aria-expanded = "false">Admin<span class="caret"></span></a>
+                            <ul class = "dropdown-menu" role = "menu" >
+                                <li> <a href = "https://openclassrooms.com/courses/creez-votre-application-web-avec-java-ee/formulaires-a-la-mode-mvc" target = "_blank"> Formluaire ocr </a></li >
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container" >
+            <div class="panel panel-danger" >
+                <div class="panel-body" id = "wsAds" >
+                    TODO PUBLICITÉ
+                </div>
+            </div>
+        </div>
+
+
+        <form id="form_nvUser" class="form-horizontal">
+            <fieldset>
+                <legend>Formulaire d'inscription</legend>
+                <div class="form-group">
+                    <label class="col-lg-2 control-label" for="inputDefault">Nom</label>
+                    <div class="col-lg-10 form-inline">
+                        <input type="text" class="form-control" id="inputNom" placeholder="Nom">
+                        <input type="text" class="form-control" id="inputPrenom" placeholder="Prénom">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-2 control-label" for="inputDefault">Adresse</label>
+                    <div class="col-lg-10 ">
+                        <input type="text" class="form-control" id="inputAdresse" placeholder="Adresse">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-2 control-label" for="inputDefault">Ville</label>
+                    <div class="col-lg-10 ">
+                        <input type="text" class="form-control" id="inputVille" placeholder="Ville">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-2 control-label" for="inputDefault">Code Postal</label>
+                    <div class="col-lg-10 form-inline">
+                        <input type="number" class="form-control" id="inputCP" placeholder="Code Postal">
+                        <input type="text" class="form-control" id="inputDateNaissance" placeholder="Date de naissance">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword" class="col-lg-2 control-label">Mot de passe</label>
+                    <div class="col-lg-10 form-inline">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Mot de passe">
+                        <input type="password" class="form-control" id="inputConfirmation" placeholder="Confirmation mot de passe">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="select" class="col-lg-2 control-label">Constructeur</label>
+                    <div class="col-lg-10 form-inline">
+                        <select class="form-control" id="constructeur"></select>
+                        <select class="form-control" id="modele"></select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                        <button type="reset" class="btn btn-default" id="btnReset">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <script charset="UTF-8" src="../js/bootstrap.min.js" ></script>
+        <script charset= "UTF-8" src="../js/jquery-ui.js" ></script>
+        <script charset="UTF-8" src="../js/datepicker-fr.js"></script>
+        <script charset="UTF-8" src="../js/tools.js"></script>
+    </body>
+</html>

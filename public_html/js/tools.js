@@ -58,7 +58,7 @@ function getDate(date) {
 function wsAds() {
     var wsAds = $("#wsAds");
 
-    var webSocket = new WebSocket("ws://localhost:8080/CarInsurance/pub");
+    var webSocket = new WebSocket("ws://192.168.1.177:8080/CarInsurance/pub");
 
     webSocket.onerror = function (event) {
         console.log("error");
